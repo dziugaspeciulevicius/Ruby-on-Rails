@@ -29,7 +29,6 @@ puts 'Enter key: '
 key = gets
 
 # taking user input and then putting them into a variable
-
 ciphertext = VigenereCipher.encrypt(plaintext, key)
 recovered  = VigenereCipher.decrypt(ciphertext, key)
 # outputting information to a user
