@@ -5,6 +5,7 @@
 # vigenere cipher library (gem install vigenere)
 require 'caesar'
 
+# encrypt function which takes a key and a plain text
 def encrypt(key, plain_text)
   key = key.upcase.split('')
   cipher_text = plain_text.upcase.split('').collect do |letter|
@@ -19,6 +20,7 @@ def encrypt(key, plain_text)
   cipher_text.join
 end
 
+# decrypt function which takes a key and a cipher text
 def decrypt(key, cipher_text)
   key = key.upcase.split('')
   plain_text = cipher_text.split('').collect do |cipher_letter|

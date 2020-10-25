@@ -1,21 +1,8 @@
-# frozen_string_literal: true
-
-# this a class for a rectangle
-class RectangleClass
-  def initialize(length, width, coordinate_x, coordinate_y)
-    @length = length
-    @width = width
-    @coordinate_x = coordinate_x
-    @coordinate_y = coordinate_y
-  end
+class Rectangle
 
   # method to get a perimeter of a rectangle
   def get_perimeter(width, length)
     (2 * length) + (2 * width)
-  end
-
-  def get_widthandlength(width)
-    width * width
   end
 
   # method to get area of a rectangle

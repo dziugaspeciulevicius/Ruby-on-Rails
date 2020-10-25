@@ -13,6 +13,7 @@ x_coordinate = gets.chomp.to_i
 puts 'Please enter coordinate y: '
 y_coordinate = gets.chomp.to_i
 
+# calling a rectangle class to use it in our program
 rectangle = RectangleClass.new(length, width, x_coordinate, y_coordinate)
 
 # taking user input and then putting them into a variable

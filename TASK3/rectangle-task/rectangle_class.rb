@@ -2,6 +2,7 @@
 
 # this a class for a rectangle
 class RectangleClass
+  # rectangle class constructor
   def initialize(length, width, coordinate_x, coordinate_y)
     @length = length
     @width = width

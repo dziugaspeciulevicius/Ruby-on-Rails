@@ -32,7 +32,7 @@ def get_coordinate_y(coordinate_y, width)
   coordinate_y + width / 2
 end
 
-# gets.chomp.to_i basically converts user input into float
+# gets.chomp.to_f basically converts user input into float and to_i to integer
 puts 'Please enter the length of a rectangle: '
 length = gets.chomp.to_f
 puts 'Please enter the width of a rectangle: '
